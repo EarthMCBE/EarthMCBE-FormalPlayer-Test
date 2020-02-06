@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EarthMCBE</title>
+  <link rel="stylesheet" href="lib/css/bulma.min.css" />
+  <script defer src="https://cdn.bootcss.com/font-awesome/5.3.1/js/all.js"></script>
+  <script src="./lib/js/main.js"></script>
+  <style>
+    body,
+    html {
+      overflow-x: hidden;
+    }
+
+    .container.columns {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 网页的头-开始 -->
+  <div class="hero is-dark">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          调查问卷
+        </h1>
+        <h2 class="subtitle">
+          请回答调查问卷提交，以获得正式玩家资格！
+        </h2>
+      </div>
+    </div>
+  </div>
+  <!-- 网页的头-结束 -->
+
+  <!-- 网页的身体-开始 -->
+    <div class="hero is-light is-medium">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title" id="q">
+			  #
+          </h1>
+          <div class="container columns">
+            <h2 class="subtitle column">
+              A.<spen id="a1"></spen>
+            </h2>
+            <h2 class="subtitle column">
+              B.<spen id="a2"></spen>
+            </h2>
+            <h2 class="subtitle column">
+              C.<spen id="a3"></spen>
+            </h2>
+            <h2 class="subtitle column">
+              D.<spen id="a4"></spen>
+            </h2>
+          </div>
+		  <div class="buttons has-addons is-right">
+		    <button class="button" onclick="next('a1')">A</button>
+		    <button class="button" onclick="next('a2')">B</button>
+		    <button class="button" onclick="next('a3')">C</button>
+			<button class="button" onclick="next('a4')">D</button>
+		  </div>
+		  <button class="button" onclick="next()">Next</button>
+        </div>
+      </div>
+    </div>
+
+  <!--网页的身体-结束-->
+  <!--网页的脚-开始-->
+    <div class="hero is-dark">
+      <div class="hero">
+        <div class="container">
+          <div class="hero is-dark">
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                <i class="fas fa-heart"></i>
+                <p>EarthMC BE Developr Team</p>
+                <p>All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--网页的脚-结束-->
+</body>
+</html>
