@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,7 +12,6 @@
     html {
       overflow-x: hidden;
     }
-
     .container.columns {
       margin-left: auto;
       margin-right: auto;
@@ -60,12 +58,13 @@
             </h2>
           </div>
 		  <div class="buttons has-addons is-right">
-		    <button class="button" onclick="next('a1')">A</button>
-		    <button class="button" onclick="next('a2')">B</button>
-		    <button class="button" onclick="next('a3')">C</button>
-			<button class="button" onclick="next('a4')">D</button>
+			<button class="button" onclick="choose('a1')">A</button>
+		    <button class="button" onclick="choose('a2')">B</button>
+		    <button class="button" onclick="choose('a3')">C</button>
+			<button class="button" onclick="choose('a4')">D</button>
 		  </div>
-		  <button class="button" onclick="next()">Next</button>
+		  <button class="button" onclick="start()">开始答题</button>
+		  <button class="button" onclick="next()">下一题</button>
         </div>
       </div>
     </div>
