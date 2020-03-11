@@ -1,118 +1,127 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-        <title>EarthMCBE</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" type="text/css">
-        <link rel="stylesheet" href="./lib/css/main.css" type="text/css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
-        <script defer src="https://cdn.bootcss.com/font-awesome/5.3.1/js/all.js" type="text/javascript" charset="UTF-8"></script>
-        <script src="./lib/js/main.js" type="text/javascript"></script>
-    </head>
-    
-    <body οncοntextmenu="return false" ondragstart="return false" onselectstart="return false" oncopy="return false">
-        <header>
-            <div class="hero is-fullheight bg-dark">
-                <div class="hero-body">
-                    <div class="container">
-                        <div class="hero bg-light">
-                            <div class="hero-body">
-                                <div class="container has-text-centered">
-                                    <img src="lib/img/logo_200px.png" alt="logo">
-                                     <h1 class="title">
-	                      Earth MCBE
-	                    </h1>
 
-                                     <h2 class="subtitle" id="h2">
-	                      </h2>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <title>EarthMCBE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" type="text/css">
+    <link rel="stylesheet" href="./lib/css/main.css" type="text/css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script defer src="https://cdn.bootcss.com/font-awesome/5.3.1/js/all.js" type="text/javascript"
+            charset="UTF-8"></script>
+    <script src="./lib/js/main.js" type="text/javascript"></script>
+    <script src='https://www.recaptcha.net/recaptcha/api.js'></script>
+</head>
 
-                                </div>
-                            </div>
-                            <div class="hero-foot">
-                                <div class="contaienr has-text-centered">
-                                     <h2 class="subtitle" id="text">
-	                          </h2>
-
-                                </div>
-                            </div>
-                            <div class="hero-body">
-                                <div class="container has-text-centered">
-                                    <input class="input is-rounded is-info" style="width: 10rem;display: none;" type="text" placeholder="Xbox ID" id="XboxId"> <a class="button is-info is-rounded" onclick="start()" id="btn">Start</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <div class="hero bg-dark is-fullheight">
+<body οncοntextmenu="return false" ondragstart="return false" onselectstart="return false" oncopy="return false">
+<header>
+    <div class="hero is-fullheight bg-dark">
+        <div class="hero-body">
+            <div class="container">
                 <div class="hero bg-light">
                     <div class="hero-body">
-                        <div class="container">
-                             <h1 class="title" id="q"></h1> 
+                        <div class="container has-text-centered">
+                            <img src="lib/img/logo_200px.png" alt="logo">
+                            <h1 class="title">
+                                Earth MCBE
+                            </h1>
+
+                            <h2 class="subtitle" id="h2">
+                            </h2>
+
                         </div>
                     </div>
-                </div>
-                <div class="hero-body">
-                    <div class="container">
-                        <div class="hero bg-light" onclick="choose('1')">
-                            <div class="hero-body button" id="1">
-                                <div class="container">
-                                     <h2 class="subtitle" id="a1"></h2> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero bg-light" onclick="choose('2')">
-                            <div class="hero-body button" id="2">
-                                <div class="container">
-                                     <h2 class="subtitle" id="a2"></h2> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero bg-light" onclick="choose('3')">
-                            <div class="hero-body button" id="3">
-                                <div class="container">
-                                     <h2 class="subtitle" id="a3"></h2> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero bg-light" onclick="choose('4')">
-                            <div class="hero-body button" id="4">
-                                <div class="container">
-                                     <h2 class="subtitle" id="a4"></h2> 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero bg-light" onclick="next()">
-                            <div class="hero-body button">
-                                <div class="container has-text-centered"> <i class="fas fa-arrow-circle-right fa-lg"></i>
+                    <div class="hero-foot">
+                        <div class="contaienr has-text-centered">
+                            <h2 class="subtitle" id="text">
+                            </h2>
 
-                                </div>
+                        </div>
+                    </div>
+                    <div class="hero-body">
+                        <div class="container has-text-centered" id="submit_hero">
+                            <input class="input is-rounded is-info" style="width: 10rem;display: none;" type="text"
+                                   placeholder="Xbox ID" id="XboxId"> <a class="button is-info is-rounded"
+                                                                         onclick="start()" id="btn">Start</a>
+                            <div style="text-align: center;">
+                                <div id="recaptcha" class="g-recaptcha"
+                                     data-sitekey="6LcPhtkUAAAAAHrYQXcEwxnijFUyADfe47BYBGa5"
+                                     style="display: inline-block;visibility: hidden"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-        <footer>
-            <div class="hero bg-light">
+        </div>
+    </div>
+</header>
+<main>
+    <div class="hero bg-dark is-fullheight">
+        <div class="hero bg-light">
+            <div class="hero-body">
                 <div class="container">
-                    <div class="hero">
-                        <div class="hero-body">
-                            <div class="container has-text-centered"> <i class="fas fa-heart" style="color: #E91E63;"></i>
+                    <h1 class="title" id="q"></h1>
+                </div>
+            </div>
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <div class="hero bg-light" onclick="choose('1')">
+                    <div class="hero-body button" id="1">
+                        <div class="container">
+                            <h2 class="subtitle" id="a1"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero bg-light" onclick="choose('2')">
+                    <div class="hero-body button" id="2">
+                        <div class="container">
+                            <h2 class="subtitle" id="a2"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero bg-light" onclick="choose('3')">
+                    <div class="hero-body button" id="3">
+                        <div class="container">
+                            <h2 class="subtitle" id="a3"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero bg-light" onclick="choose('4')">
+                    <div class="hero-body button" id="4">
+                        <div class="container">
+                            <h2 class="subtitle" id="a4"></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero bg-light" onclick="next()">
+                    <div class="hero-body button">
+                        <div class="container has-text-centered"><i class="fas fa-arrow-circle-right fa-lg"></i>
 
-                                <p>EarthMC BE Developr Team</p>
-                                <p>All Rights Reserved</p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="hero bg-light">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-body">
+                    <div class="container has-text-centered"><i class="fas fa-heart" style="color: #E91E63;"></i>
+
+                        <p>EarthMC BE Developr Team</p>
+                        <p>All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
 
 </html>

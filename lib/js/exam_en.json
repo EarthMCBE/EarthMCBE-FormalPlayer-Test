@@ -1,34 +1,403 @@
 [
-{
-	"id":1,
-	"q":"1",
-	"a1":"1",
-	"a2":"a",
-	"a3":"a",
-	"a4":"a"
-},
-{
-	"id":2,
-	"q":"if billy king said FU♂CK to you, what would you say to answer him?",
-	"a1":"fuck you too",
-	"a2":"♂",
-	"a3":"that was good",
-	"a4":"come on"
-},
-{
-	"id":3,
-	"q":"3",
-	"a1":"a",
-	"a2":"a",
-	"a3":"3",
-	"a4":"a"
-},
-{
-	"id":4,
-	"q":"4",
-	"a1":"a",
-	"a2":"a",
-	"a3":"a",
-	"a4":"4"
-}
+	{
+		"id":1,
+		"q":"What kind of game is minecraft?",
+		"a1":"RPG",
+		"a2":"TPS",
+		"a3":"FPS",
+		"a4":"Sandbox"
+	},
+	{
+		"id":2,
+		"q":"What language is Minecraft: Bedrock Edition written in?",
+		"a1":"Java",
+		"a2":"C++",
+		"a3":"C#",
+		"a4":"Python"
+	},
+	{
+		"id":3,
+		"q":"Which platform is Minecraft: Bedrock Edition not officially published on?",
+		"a1":"Windows 10",
+		"a2":"macOS",
+		"a3":"AppleTV",
+		"a4":"Nintendo Switch"
+	},
+	{
+		"id":4,
+		"q":"Where is mojang's studio? Which day was it bought by Microsoft?",
+		"a1":"Sweden ；2013.9.15",
+		"a2":"us ；2014.8.15",
+		"a3":"Sweden ；2014.8.15",
+		"a4":"Stockholm ；2014.9.15"
+	},
+
+	{
+		"id":5,
+		"q":"When was Minecraft officially released?",
+		"a1":"2009.5.12",
+		"a2":"2009.5.13",
+		"a3":"2009.4.13",
+		"a4":"2010.5.12"
+	},
+	{
+		"id":6,
+		"q":"What can the sand burn into?",
+		"a1":"Stone brick",
+		"a2":"sponge",
+		"a3":"glass",
+		"a4":"pumpkin"
+	},
+	{
+		"id":7,
+		"q":"How much bread can a group of wheat make at most?",
+		"a1":"21",
+		"a2":"22",
+		"a3":"23",
+		"a4":"20"
+	},
+	{
+		"id":8,
+		"q":"How to make scaffold?",
+		"a1":"Bamboo + line",
+		"a2":"wood fence + line",
+		"a3":"wood board + line",
+		"a4":"wood stick + line"
+	},
+	{
+		"id":9,
+		"q":"What will fall if you kill the chicken?",
+		"a1":"Feather",
+		"a2":"egg",
+		"a3":"thread",
+		"a4":"leather"
+	},
+	{
+		"id":10,
+		"q":"Which one of the following items belong to the same category with the tide core:",
+		"a1":"End Shadow crystal",
+		"a2":"heart of the sea",
+		"a3":"brush strange cage",
+		"a4":"beacon"
+	},
+	{
+		"id":11,
+		"q":"How many spaces can the scaffold extend outward at most?",
+		"a1":"7",
+		"a2":"6",
+		"a3":"5",
+		"a4":"4"
+	},
+	{
+		"id":12,
+		"q":"How to achieve the “top of the world?”",
+		"a1":"Place the ladder to the world limit",
+		"a2":"place the trap door to the world limit",
+		"a3":"place the scaffold to the world limit",
+		"a4":"place any box to the world limit"
+	},
+	{
+		"id":13,
+		"q":"After the village update, how many occupations villagers have?",
+		"a1":"16",
+		"a2":"15",
+		"a3":"6",
+		"a4":"5"
+	},
+	{
+		"id":14,
+		"q":"When making a cake, the least material used is:",
+		"a1":"Sucrose",
+		"a2":"milk",
+		"a3":"egg",
+		"a4":"wheat"
+	},
+	{
+		"id":15,
+		"q":"When making a TNT, the minimum material appearing on the ingredient list is:",
+		"a1":"Sandstone",
+		"a2":"red sand",
+		"a3":"gunpowder",
+		"a4":"line"
+	},
+	{
+		"id":16,
+		"q":"If a player wants to get the effect of jumping promotion through beacon, how many minerals does he need at least?",
+		"a1":"747",
+		"a2":"748",
+		"a3":"306",
+		"a4":"307"
+	},
+	{
+		"id":17,
+		"q":"If an average anvil can be used 25 times, what is the damage rate of each anvil used?",
+		"a1":"12%",
+		"a2":"13%",
+		"a3":"14%",
+		"a4":"15%"
+	},
+	{
+		"id":18,
+		"q":"In logic gate, what is the opposite of the input signal?",
+		"a1":"Not gate",
+		"a2":"And gate",
+		"a3":"to door",
+		"a4":"or door"
+	},
+	{
+		"id":19,
+		"q":"What is the explosive power of TNT?",
+		"a1":"100%",
+		"a2":"120%",
+		"a3":"150%",
+		"a4":"200%"
+	},
+	{
+		"id":20,
+		"q":"The fastest way to dig the beetle block is as follows:",
+		"a1":"Pickaxe",
+		"a2":"axe",
+		"a3":"empty hand",
+		"a4":"all the above are the same"
+	},
+	{
+		"id":21,
+		"q":"What is the hardness of bedrock?",
+		"a1":"-1",
+		"a2":"32767",
+		"a3":"infinite value",
+		"a4":"1024+1"
+	},
+	{
+		"id":22,
+		"q":"Which one of the following events have the lowest probability:",
+		"a1":"Zombies burn during the day because of fire",
+		"a2":"Two skull shooters shoot at each other for hate",
+		"a3":"Forest fire caused by lightning",
+		"a4":"You meet a little zombie on a chicken"
+	},
+	{
+		"id":23,
+		"q":"Among the following squares, the one with the smallest floor area on the X and Y axis of the horizontal plane is:",
+		"a1":"Terminal transfer door (block) ",
+		"a2":"box",
+		"a3":"brush strange cage",
+		"a4":"honey block"
+	},
+	{
+		"id":24,
+		"q":"The following statements about red stone,(1) If there is only red stone and an activated red stone, the maximum distance of its red stone signal straight line is 15 grid;(2) In logic gate, when only one input terminal of and gate has a signal input, it can have a signal output;(3) The display box can output the red stone signal;How many are wrong?",
+		"a1":"0",
+		"a2":"1",
+		"a3":"2",
+		"a4":"3"
+	},
+	{
+		"id":25,
+		"q":"When making power potions, which of the following items are not necessary materials:",
+		"a1":"Hell wart",
+		"a2":"flame powder",
+		"a3":"fluorite powder",
+		"a4":"water bottle"
+	},
+	{
+		"id":26,
+		"q":"Which of the following statements about the effect are wrong:",
+		"a1":"When you have jump effect, you may not be hurt even if you fall at a height of more than 4 spaces",
+		"a2":"If it has a slow drop effect, it is impossible to die",
+		"a3":"Power effect has the same effect no matter how many levels",
+		"a4":"If healing potions work on undead creatures do damage"
+	},
+	{
+		"id":27,
+		"q":"What kind of liquid medicine can fermented spider's eye brew?",
+		"a1":"Night vision potion",
+		"a2":"stealth potion",
+		"a3":"regenerative potion",
+		"a4":"crude Potion"
+	},
+	{
+		"id":28,
+		"q":"The one having largest amount of blood in the following organisms is:",
+		"a1":"Withered",
+		"a2":"final shadow dragon",
+		"a3":"iron puppet",
+		"a4":"ancient guard"
+	},
+	{
+		"id":29,
+		"q":"Which one of the following are not solid blocks:",
+		"a1":"Piston",
+		"a2":"block pushed by piston",
+		"a3":"furnace burning mineral",
+		"a4":"treasure chest containing articles"
+	},
+	{
+		"id":30,
+		"q":"Which one of the following statements about the block state are correct:",
+		"a1":"The face default value of the barrel is South",
+		"a2":"Age acceptance value of beetroot is r set",
+		"a3":"The default value of the clock's attachment is floor",
+		"a4":"The axis acceptance value of bone mass is x, y, Z, Q"
+	},
+	{
+		"id":31,
+		"q":"When TNT is a entity, its gravitational acceleration is 0.04 grid / quarter of the quadratic. If the air resistance is 0.02 quarter of the negative primary, then its terminal speed is what? (unit: grid / engrave)",
+		"a1":"1.96",
+		"a2":"39.2",
+		"a3":"1.92",
+		"a4":"9.8"
+	},
+	{
+		"id":32,
+		"q":"Which of the following about the differences between ”/enchant“ and ”/give enchant weapons“ are true:",
+		"a1":"/ enchant can implement custom enchantment, but / give can't",
+		"a2":"/ give can implement custom enchantment, but / enchant cannot",
+		"a3":"If you use / give enchant, you must have the item in advance",
+		"a4":"This item must be owned in advance whether using / enchant or / give enchant"
+	},
+	{
+		"id":33,
+		"q":"What is the effect of implementing '/ gamemode 1 @ s' in Minecraft: Java Edition?",
+		"a1":"Change your own mode to a survival mode",
+		"a2":"Change one's own model to one of creation",
+		"a3":"Change everyone's mode to adventure mode",
+		"a4":"no effect"
+	},
+	{
+		"id":34,
+		"q":"Which one of the following bedrock version ID is wrong:",
+		"a1":"0-air",
+		"a2":"137-command_block",
+		"a3":"233-red_glazed_terracotta",
+		"a4":"262-stripped_jungle_log"
+	},
+	{
+		"id":35,
+		"q":"Which one of the following statements are correct:",
+		"a1":"The gravity in minecraft is different from the real world, but the physical gravity in the game is the same",
+		"a2":"Limit mode is not a valid mode parameter option",
+		"a3":"The red stone comparator serves as a block for storing the output signal strength",
+		"a4":"All creatures are not necessarily entities"
+	},
+	{
+		"id":36,
+		"q":"Minecraft game map package file suffix is",
+		"a1":"mcworld",
+		"a2":"mcpack",
+		"a3":"mcapp",
+		"a4":"mp3"
+	},
+	{
+		"id":37,
+		"q":"What's the command to go home in multiplayer?",
+		"a1":"gohome",
+		"a2":"/gohome",
+		"a3":"/back",
+		"a4":"/tpa"
+	},
+	{
+		"id":38,
+		"q":"When you want something from a player, will you?",
+		"a1":"Attack",
+		"a2":"blow up",
+		"a3":"ask that player",
+		"a4":"kill the player"
+	},
+	{
+		"id":39,
+		"q":"The official transaction currency of EarthMCBE is:",
+		"a1":"Gold ingot",
+		"a2":"gold grain",
+		"a3":"brick",
+		"a4":"verruca Inferno"
+	},
+	{
+		"id":40,
+		"q":"Which of the following are non renewable resources:",
+		"a1":"Hell wart",
+		"a2":"gold mine",
+		"a3":"wheat",
+		"a4":"sugarcane"
+	},
+	{
+		"id":41,
+		"q":"In the national game of this server, the minimum territory size of a city is?",
+		"a1":"20x20x20",
+		"a2":"50x50x50",
+		"a3":"30x30x30",
+		"a4":"10x10x10"
+	},
+	{
+		"id":42,
+		"q":"What should you do when you encounter a player stealing from you?",
+		"a1":"Take it out, steal someone else's stuff",
+		"a2":"Attack him in the chat area",
+		"a3":"Depressed in reality",
+		"a4":"Discuss with other players to solve it"
+	},
+	{
+		"id":43,
+		"q":"Which of the following statements are correct:",
+		"a1":"This server will not drop if it dies",
+		"a2":"This server was born in Africa",
+		"a3":"This server is a server on minecraft: Java",
+		"a4":"This server is only open to China"
+	},
+	{
+		"id":44,
+		"q":"How to view currency ranking?",
+		"a1":"/balance",
+		"a2":"/shop",
+		"a3":"/balancetop",
+		"a4":"/money"
+	},
+	{
+		"id":45,
+		"q":"As a non OP player, what commands can't you use:",
+		"a1":"/tp",
+		"a2":"/shop",
+		"a3":"/back",
+		"a4":"/res"
+	},
+	{
+		"id":46,
+		"q":"Which of the following situations will you not encounter in this server?",
+		"a1":"Dig for diamonds",
+		"a2":"The crops were exchanged for a set of money",
+		"a3":"Defeat the end shadow Dragon",
+		"a4":"Unable to enchant"
+	},
+	{
+		"id":47,
+		"q":"When the country you founded wants to fight another country, what do you need?",
+		"a1":"Direct aggression",
+		"a2":"Reasons for opening war",
+		"a3":"sneak attack",
+		"a4":"Transfer the separation, so that the other country will not break through"
+	},
+	{
+		"id":48,
+		"q":"Which of the following are not appropriate?",
+		"a1":"Blow up your own building with TNT",
+		"a2":"Exchange your own goods for others' goods",
+		"a3":"Harvest other people's rice fields without replanting",
+		"a4":"Borrow others' things and return them regularly"
+	},
+	{
+		"id":49,
+		"q":"Which of the following behaviors will be ban?",
+		"a1":"Flying in the server",
+		"a2":"Stealing other people's goods",
+		"a3":"Kill other players maliciously",
+		"a4":"Repeatedly warned by the United Nations"
+	},
+	{
+		"id":50,
+		"q":"1+1=？😂",
+		"a1":"1",
+		"a2":"2",
+		"a3":"3",
+		"a4":"4"
+	}
 ]
